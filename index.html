@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Big Mammoth Media — Add $20K–$30K/Month to Your Service Business in 90 Days</title>
+<meta name="description" content="We install a complete customer-getting system into your local service business — ads, website, organic, and a closing process — guaranteed to add $20K–$30K/mo in 90 days, or we work free until you do.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#00020f;
+    --bg-soft:#04071a;
+    --card:#080c20;
+    --card-2:#0b1026;
+    --line:rgba(120,150,255,.14);
+    --line-soft:rgba(120,150,255,.08);
+    --text:#f3f5ff;
+    --muted:#9aa3c4;
+    --accent:#4c75ff;
+    --accent-2:#1a4fff;
+    --accent-soft:rgba(76,117,255,.14);
+    --gold:#f5b417;
+    --grad:linear-gradient(180deg,#4c75ff,#1a4fff);
+    --grad-text:linear-gradient(180deg,#7e9bff,#3a64ff);
+    --radius:26px;
+    --maxw:1120px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Rethink Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  .narrow{max-width:780px;margin:0 auto}
+  section{padding:78px 0;position:relative}
+  h1,h2,h3{line-height:1.1;letter-spacing:-.02em;font-weight:700}
+  h1{font-size:clamp(2.1rem,5.4vw,3.7rem)}
+  h2{font-size:clamp(1.7rem,4vw,2.7rem)}
+  h3{font-size:clamp(1.1rem,2.2vw,1.35rem);font-weight:600}
+  p{color:var(--muted);font-size:clamp(1rem,1.4vw,1.12rem)}
+  .accent{background:var(--grad-text);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:.76rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+    color:#aebcff;background:var(--accent-soft);
+    padding:7px 15px;border-radius:100px;border:1px solid rgba(76,117,255,.28);
+  }
+  .center{text-align:center}
+
+  /* Buttons */
+  .btn{
+    display:inline-block;cursor:pointer;border:none;
+    background:var(--grad);color:#fff;font-weight:700;font-size:1.05rem;
+    padding:17px 38px;border-radius:100px;text-decoration:none;
+    box-shadow:0 12px 34px rgba(26,79,255,.4);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover{transform:translateY(-2px);box-shadow:0 18px 46px rgba(26,79,255,.55)}
+  .btn-row{margin-top:30px}
+
+  /* Marquee top strip */
+  .ticker{background:var(--bg-soft);border-bottom:1px solid var(--line-soft);overflow:hidden;white-space:nowrap}
+  .ticker .track{display:inline-block;padding:9px 0;animation:scroll 28s linear infinite}
+  .ticker span{color:#7d88ad;font-size:.78rem;letter-spacing:.05em;margin:0 26px;text-transform:uppercase}
+  .ticker span b{color:#aebcff;font-weight:600}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+  /* Top bar */
+  .topbar{
+    position:sticky;top:0;z-index:50;
+    background:rgba(0,2,15,.82);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line-soft);
+  }
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:70px}
+  .brand{display:flex;align-items:center;gap:10px}
+  .brand img{height:34px;width:auto;display:block}
+  .brand .name{font-weight:800;letter-spacing:-.02em;font-size:1.02rem}
+  .topbar .btn{padding:11px 24px;font-size:.92rem}
+
+  /* Hero */
+  .hero{padding-top:58px;text-align:center;background:
+    radial-gradient(900px 480px at 50% -8%, rgba(76,117,255,.20), transparent 62%),
+    radial-gradient(600px 360px at 82% 6%, rgba(26,79,255,.10), transparent 60%);
+  }
+  .hero:before{content:"";position:absolute;top:54px;left:50%;transform:translateX(-50%);width:1100px;max-width:120vw;height:240px;border-radius:50%;
+    background:transparent;box-shadow:0 -1px 60px 1px rgba(120,150,255,.25);opacity:.5;pointer-events:none}
+  .hero h1{max-width:940px;margin:18px auto 0;position:relative}
+  .hero .sub{max-width:700px;margin:22px auto 0;font-size:clamp(1.05rem,1.7vw,1.25rem);color:#c5ccec}
+  .cue{margin:26px 0 10px;color:#aebcff;font-weight:600}
+
+  /* Stars / trust */
+  .stars{color:var(--gold);letter-spacing:3px;font-size:1.05rem}
+  .trust-line{margin-top:8px;color:#8b95b8;font-size:.9rem;font-weight:500}
+
+  /* Video */
+  .video-shell{max-width:800px;margin:10px auto 0}
+  .video-box{
+    position:relative;aspect-ratio:16/9;border-radius:var(--radius);overflow:hidden;
+    background:radial-gradient(120% 120% at 50% 0%, #131a3a, #05081c);
+    border:1px solid var(--line);box-shadow:0 30px 90px rgba(0,0,0,.6);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .play{
+    width:78px;height:78px;border-radius:50%;background:var(--grad);
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 10px 34px rgba(26,79,255,.5);
+  }
+  .play:after{content:"";border-left:22px solid #fff;border-top:13px solid transparent;border-bottom:13px solid transparent;margin-left:6px}
+  .video-note{position:absolute;bottom:14px;left:0;right:0;text-align:center;font-size:.8rem;color:#7d88ad}
+
+  /* Guarantee bar */
+  .gbar{
+    max-width:740px;margin:28px auto 0;
+    background:linear-gradient(180deg,rgba(76,117,255,.12),rgba(26,79,255,.05));
+    border:1px solid rgba(76,117,255,.3);border-radius:16px;
+    padding:16px 22px;font-weight:500;color:#e7eaff;font-size:1.02rem;
+  }
+  .gbar b{color:#aebcff;font-weight:700}
+
+  /* Quiz / apply */
+  #apply{background:var(--bg-soft);border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft)}
+  .quiz-card{
+    max-width:780px;margin:30px auto 0;background:var(--card);
+    border:1px solid var(--line);border-radius:var(--radius);padding:16px;
+    box-shadow:0 24px 80px rgba(0,0,0,.5);
+  }
+  .quiz-card iframe{display:block;width:100%;min-height:640px;border:none;border-radius:16px;background:#fff}
+
+  /* Cards grid */
+  .grid{display:grid;gap:18px;margin-top:44px}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .g4{grid-template-columns:repeat(2,1fr)}
+  .card{
+    background:linear-gradient(180deg,var(--card-2),var(--card));
+    border:1px solid var(--line);border-radius:var(--radius);
+    padding:28px 26px;transition:border-color .2s ease, transform .2s ease;
+  }
+  .card:hover{border-color:rgba(76,117,255,.45);transform:translateY(-3px)}
+  .card h3{margin-bottom:8px}
+  .card p{font-size:1rem}
+  .knum{font-size:.74rem;font-weight:800;letter-spacing:.13em;color:#7e9bff;text-transform:uppercase;display:block;margin-bottom:10px}
+
+  /* Steps */
+  .steps{margin-top:42px;display:grid;gap:14px}
+  .step{display:flex;gap:18px;align-items:flex-start;background:linear-gradient(180deg,var(--card-2),var(--card));border:1px solid var(--line);border-radius:18px;padding:24px 26px}
+  .step .tag{flex:0 0 auto;font-size:.72rem;font-weight:800;letter-spacing:.1em;color:#fff;background:var(--grad);padding:6px 13px;border-radius:100px;text-transform:uppercase;margin-top:3px}
+  .step p{margin:0;color:#c5ccec}
+
+  /* Momentum divider (brand-voice band) */
+  .band{background:
+    radial-gradient(700px 320px at 50% 50%, rgba(76,117,255,.12), transparent 65%);
+    border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);text-align:center}
+  .band .panel{max-width:980px;margin:0 auto;border:1px solid var(--line);border-radius:var(--radius);
+    padding:54px 30px;background:radial-gradient(120% 160% at 50% 0%, rgba(20,28,64,.7), rgba(4,7,26,.4));}
+
+  /* Proof */
+  .proof-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:44px}
+  .proof-card{background:linear-gradient(180deg,var(--card-2),var(--card));border:1px solid var(--line);border-radius:var(--radius);padding:32px 26px;text-align:center}
+  .proof-card .big{font-size:clamp(1.9rem,4.2vw,2.7rem);font-weight:800;background:var(--grad-text);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.1}
+  .proof-card p{margin-top:8px;font-size:1rem;color:#c5ccec}
+
+  /* Trust strip (client names) */
+  .clients{margin-top:38px;text-align:center}
+  .clients .lbl{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:#7d88ad;margin-bottom:16px}
+  .clients .row{display:flex;flex-wrap:wrap;gap:14px 30px;justify-content:center;align-items:center}
+  .clients .row span{color:#aab3d4;font-weight:600;font-size:.98rem;opacity:.8}
+
+  /* Guarantee */
+  .guarantee{text-align:center;background:linear-gradient(180deg,rgba(76,117,255,.07),transparent)}
+  .seal{display:inline-block;border:1px solid rgba(76,117,255,.4);background:var(--accent-soft);color:#aebcff;font-weight:800;letter-spacing:.1em;text-transform:uppercase;font-size:.75rem;padding:8px 16px;border-radius:100px;margin-bottom:20px}
+
+  /* FAQ */
+  .faq{max-width:780px;margin:40px auto 0}
+  .qa{border:1px solid var(--line);border-radius:18px;background:var(--card);margin-bottom:12px;overflow:hidden}
+  .qa button{width:100%;text-align:left;background:none;border:none;color:var(--text);font-family:inherit;
+    font-size:1.05rem;font-weight:600;padding:20px 22px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px}
+  .qa .ans{max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .qa .ans p{padding:0 22px 20px;font-size:1rem}
+  .qa .ico{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--accent-soft);color:#aebcff;display:flex;align-items:center;justify-content:center;font-weight:800;transition:transform .25s ease}
+  .qa.open .ico{transform:rotate(45deg)}
+
+  /* Final CTA */
+  .final{text-align:center;background:radial-gradient(820px 420px at 50% 120%, rgba(76,117,255,.22), transparent 60%)}
+  .final h2 span{display:block}
+
+  /* Footer */
+  footer{border-top:1px solid var(--line-soft);padding:44px 0;text-align:center}
+  .footer-brand{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:14px}
+  .footer-brand img{height:30px}
+  footer p{font-size:.85rem;color:#6b7498}
+  footer a{color:#9aa3c4;text-decoration:none;margin:0 8px}
+
+  @media (max-width:720px){
+    section{padding:56px 0}
+    .g2,.g4,.proof-grid{grid-template-columns:1fr}
+    .topbar .btn{display:none}
+    .step{flex-direction:column;gap:10px}
+    .brand .name{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="track">
+    <span><b>Paid Ads</b> — Meta &amp; Google</span><span><b>Web Design</b> — Built to Convert</span><span><b>Organic Social</b> — Trust on Autopilot</span><span><b>Closing System</b> — Turn Leads to Revenue</span><span><b>Guaranteed</b> — $20K–$30K in 90 Days</span>
+    <span><b>Paid Ads</b> — Meta &amp; Google</span><span><b>Web Design</b> — Built to Convert</span><span><b>Organic Social</b> — Trust on Autopilot</span><span><b>Closing System</b> — Turn Leads to Revenue</span><span><b>Guaranteed</b> — $20K–$30K in 90 Days</span>
+  </div>
+</div>
+
+<!-- TOP BAR -->
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">
+      <img src="https://framerusercontent.com/images/RjYs2ZV5pWaFayY0D1kziPGAlM.png" alt="Big Mammoth Media logo">
+      <span class="name">Big Mammoth Media</span>
+    </div>
+    <a href="#apply" class="btn">See If You Qualify</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">For Local Service Businesses</span>
+    <h1>How Local Service Businesses Are Adding <span class="accent">$20K–$30K a Month</span> — Without Chasing Customers or Becoming a Marketer</h1>
+    <p class="sub">We install a complete customer-getting system into your business — ads, website, organic, and a closing process — then guarantee the result.</p>
+
+    <div style="margin-top:20px">
+      <div class="stars">★★★★★</div>
+      <div class="trust-line">5/5 from 15 local business owners</div>
+    </div>
+
+    <div class="gbar">
+      Add a minimum of <b>$20K–$30K in new revenue</b> in 90 days. <b>Guaranteed</b> — or we work free until you do.
+    </div>
+
+    <div class="btn-row"><a href="#apply" class="btn">See If You Qualify ↓</a></div>
+  </div>
+</section>
+
+<!-- APPLY / QUIZ -->
+<section id="apply">
+  <div class="wrap center">
+    <span class="eyebrow">Step 1</span>
+    <h2 style="margin-top:14px">See if your business qualifies</h2>
+    <p class="narrow" style="margin-top:12px">Answer a few quick questions. If we're a fit, we'll map out exactly how we'd add $20K–$30K/month to your business.</p>
+    <div class="quiz-card">
+      <iframe src="https://links.nextleadpro.com/widget/quiz/Kmc6gBmAahoN2paRnYrR" id="Kmc6gBmAahoN2paRnYrR" title="quiz" scrolling="no"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- 01 PROBLEM -->
+<section>
+  <div class="wrap">
+    <div class="narrow center">
+      <span class="eyebrow">01 — The Problem</span>
+      <h2 style="margin-top:14px">On paper, business is fine. In reality, you have no idea what next month looks like.</h2>
+    </div>
+    <div class="grid g2">
+      <div class="card"><h3>The phone decides your mood</h3><p>When it rings, you're slammed and happy. When it goes quiet for a week, the stress creeps in. You're not running the business — the calendar is running you.</p></div>
+      <div class="card"><h3>You're the best-kept secret in town</h3><p>You do better work than the guy who's booked out for a month. But he's <em>visible</em>, and you're relying on whoever happens to refer you this week.</p></div>
+      <div class="card"><h3>Every slow stretch costs you twice</h3><p>A couple of soft weeks and you're discounting, chasing, and saying yes to jobs you'd normally turn down — just to fill the gap.</p></div>
+      <div class="card"><h3>You don't have time to fix it</h3><p>You know marketing could solve this. But you're on the tools all day. The website's three years old and "post more" was never a real plan.</p></div>
+    </div>
+    <p class="center" style="margin-top:34px;color:#c5ccec">So why hasn't anything you've tried actually fixed it?</p>
+  </div>
+</section>
+
+<!-- 02 WHAT YOU'VE TRIED -->
+<section style="background:var(--bg-soft);border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft)">
+  <div class="wrap">
+    <div class="narrow center">
+      <span class="eyebrow">02 — What You've Tried</span>
+      <h2 style="margin-top:14px">Every way you get customers right now depends on luck — or on you.</h2>
+    </div>
+    <div class="grid g2">
+      <div class="card"><h3>Referrals close easy, but you can't make more on demand</h3><p>Word of mouth brings in the good ones. But you can't turn it up the week you need five new jobs booked.</p></div>
+      <div class="card"><h3>Bought leads are a race to the bottom</h3><p>Angi, HomeAdvisor, Thumbtack — the same lead gets sold to four competitors. You bid on price and pray you call first.</p></div>
+      <div class="card"><h3>"Posting more" never moved the needle</h3><p>A few likes, no customers. Nobody told you the post isn't the point — the system behind it is.</p></div>
+      <div class="card"><h3>The last agency took your money and showed you a dashboard</h3><p>Lots of "impressions," no new customers. You got burned, and now every pitch sounds like that one.</p></div>
+    </div>
+    <p class="center" style="margin-top:34px;color:#c5ccec">It isn't that you tried the wrong things. You did them piecemeal, with no system tying them together.</p>
+  </div>
+</section>
+
+<!-- MOMENTUM BAND -->
+<section class="band">
+  <div class="wrap">
+    <div class="panel">
+      <h2>We don't just fill your calendar —<br><span class="accent">we build momentum.</span></h2>
+      <p class="narrow" style="margin-top:16px">A handful of customers a week isn't a tactic. It's a machine — and the parts have to work together, in the right order.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 03 THE REAL FIX -->
+<section>
+  <div class="wrap">
+    <div class="narrow center">
+      <span class="eyebrow">03 — The Real Fix</span>
+      <h2 style="margin-top:14px">You're fixing this from the wrong end, in the wrong order.</h2>
+      <p style="margin-top:16px">A website that doesn't convert wastes every ad dollar. Ads without follow-up generate leads that die in your inbox. Most owners buy one piece, it underperforms because the others are missing, and they decide "marketing doesn't work for my business." It works — in the right order.</p>
+    </div>
+    <div class="steps narrow">
+      <div class="step"><span class="tag">First</span><p>The attention has to be predictable. Paid ads on Meta and Google put your business in front of your ideal customer on demand — instead of waiting on referrals.</p></div>
+      <div class="step"><span class="tag">Then</span><p>The website and your organic presence have to <em>convert</em> that attention into booked calls and quotes — every time, not just when you get lucky.</p></div>
+      <div class="step"><span class="tag">Only Then</span><p>The closing system turns those conversations into paying customers, so the leads we generate actually become revenue.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 WHAT WE INSTALL -->
+<section style="background:var(--bg-soft);border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft)">
+  <div class="wrap">
+    <div class="narrow center">
+      <span class="eyebrow">04 — What We Install</span>
+      <h2 style="margin-top:14px">The complete customer-getting system, built into your business.</h2>
+    </div>
+    <div class="grid g4">
+      <div class="card"><span class="knum">System 01</span><h3>Paid acquisition (Meta + Google)</h3><p>Your ideal customers — in your area, ready to buy — sent straight to you on demand. No more waiting on referrals or bidding for scraps on lead sites.</p></div>
+      <div class="card"><span class="knum">System 02</span><h3>A website that actually closes</h3><p>We optimize or rebuild your site so the traffic we send turns into booked calls and quote requests, instead of bouncing.</p></div>
+      <div class="card"><span class="knum">System 03</span><h3>Organic social that builds trust</h3><p>So when a customer checks you out before buying — and they always do — they see the obvious choice.</p></div>
+      <div class="card"><span class="knum">System 04</span><h3>The closing system</h3><p>We teach you and your team the exact process to turn these leads into paying customers, so nothing slips through the cracks.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 THE PAYOFF -->
+<section>
+  <div class="wrap">
+    <div class="narrow center">
+      <span class="eyebrow">05 — The Payoff</span>
+      <h2 style="margin-top:14px">A calendar that's full on purpose — not by accident.</h2>
+    </div>
+    <div class="grid g2">
+      <div class="card"><h3>The phone rings either way</h3><p>New customers come in whether or not you're out there hustling for them this week.</p></div>
+      <div class="card"><h3>You can finally plan</h3><p>Predictable revenue means you can hire, buy the truck, take the time off — without gambling.</p></div>
+      <div class="card"><h3>You stop competing on price</h3><p>When you're not desperate for the next job, you charge what your work is worth and pick the customers you want.</p></div>
+      <div class="card"><h3>Owner, not just operator</h3><p>You go from the hardest-working person in your company to the owner of a business that grows.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEE -->
+<section class="guarantee">
+  <div class="wrap narrow">
+    <span class="seal">Our Guarantee</span>
+    <h2>We add at least <span class="accent">$20,000–$30,000</span> in new monthly revenue in 90 days — or we work for free until you get it.</h2>
+    <p style="margin-top:18px">Most agencies get paid whether you grow or not. We put our own time on the line. The risk is ours, not yours.</p>
+    <div class="btn-row"><a href="#apply" class="btn">See If You Qualify</a></div>
+  </div>
+</section>
+
+<!-- 06 PROOF -->
+<section style="background:var(--bg-soft);border-top:1px solid var(--line-soft)">
+  <div class="wrap">
+    <div class="narrow center">
+      <span class="eyebrow">06 — The Proof</span>
+      <h2 style="margin-top:14px">Real local businesses. Real numbers.</h2>
+    </div>
+    <div class="proof-grid">
+      <div class="proof-card"><div class="big">3–5/day</div><p>A local plumber went from chasing work to landing <b>3–5 new customers every single day.</b></p></div>
+      <div class="proof-card"><div class="big">150+</div><p>A local gym added <b>over 150 new members.</b></p></div>
+      <div class="proof-card"><div class="big">$50,000</div><p>A tree service put <b>$50K in new estimates</b> on the board in 120 days.</p></div>
+      <div class="proof-card"><div class="big">+$20,000</div><p>A Christmas light installer added <b>$20K in revenue</b> on top of his entire previous year's profit — on a limited budget.</p></div>
+    </div>
+
+    <div class="clients">
+      <div class="lbl">Trusted by local businesses</div>
+      <div class="row">
+        <span>Jacob &amp; Associates Realty</span>
+        <span>Land + Legacy Custom Homes</span>
+        <span>Shawn Clagg CPA</span>
+        <span>Malibu Homes</span>
+        <span>MK Tooling</span>
+        <span>A Touch Above</span>
+        <span>LLE Signature Properties</span>
+      </div>
+    </div>
+
+    <p class="center" style="margin-top:30px;color:#c5ccec">Different trades. Same machine.</p>
+    <div class="center btn-row"><a href="#apply" class="btn">See If You Qualify</a></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <div class="narrow center">
+      <span class="eyebrow">Before You Apply</span>
+      <h2 style="margin-top:14px">Questions you're probably asking.</h2>
+    </div>
+    <div class="faq">
+      <div class="qa"><button>What exactly is this?<span class="ico">+</span></button><div class="ans"><p>It's a done-for-you customer-getting system we install into your service business. We build and run your paid ads on Meta and Google, optimize or rebuild your website to convert, set up your organic social, and teach you the system to close the leads we send you. Everything that gets a customer from "never heard of you" to "booked," done for you.</p></div></div>
+      <div class="qa"><button>Why does this work when the last agency didn't?<span class="ico">+</span></button><div class="ans"><p>Because most agencies sell you one piece — usually ads — and leave the rest broken, so leads have nowhere good to land and nobody closes them. We build the whole machine in the right order: predictable traffic, a site that converts, and a closing process that turns leads into revenue. One piece alone fails. The system works.</p></div></div>
+      <div class="qa"><button>Will this work for my type of business?<span class="ico">+</span></button><div class="ans"><p>If you're a local service business with customers, yes. We've done it across trades — plumbing, fitness, tree service, seasonal installs — because the system is built around your business and your area, not a one-size template.</p></div></div>
+      <div class="qa"><button>I'm already slammed. How do I find the time?<span class="ico">+</span></button><div class="ans"><p>That's exactly what this fixes. The heavy lifting — ads, website, content — is done for you. Your part is learning the closing system and showing up for the customers we send you. Most owners put in just a few hours a week.</p></div></div>
+      <div class="qa"><button>How fast will I see results?<span class="ico">+</span></button><div class="ans"><p>Some clients see new customers in the first couple of weeks. The guarantee is built around 90 days: at least $20K–$30K in new monthly revenue in that window, or we keep working free until you're there.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final">
+  <div class="wrap narrow">
+    <h2><span>Most local businesses stay stuck waiting for the phone to ring.</span> <span class="accent">Here's how to become the one that's booked out.</span></h2>
+    <div class="btn-row"><a href="#apply" class="btn">See If You Qualify</a></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer-brand">
+      <img src="https://framerusercontent.com/images/RjYs2ZV5pWaFayY0D1kziPGAlM.png" alt="Big Mammoth Media logo">
+      <span style="font-weight:800">Big Mammoth Media</span>
+    </div>
+    <p><a href="https://bigmammothmedia.com">Home</a> · <a href="#">Terms</a> · <a href="#">Privacy</a> · <a href="#">Contact</a></p>
+    <p style="margin-top:10px">© 2026 Big Mammoth Media. All Rights Reserved. Results vary by business; figures reflect specific client outcomes and are not a promise of identical results.</p>
+  </div>
+</footer>
+
+<!-- Quiz embed script (NextLeadPro / GoHighLevel) -->
+<script src="https://links.nextleadpro.com/js/form_embed.js"></script>
+<!-- FAQ accordion -->
+<script>
+  document.querySelectorAll('.qa button').forEach(function(b){
+    b.addEventListener('click',function(){
+      var qa=b.parentElement, ans=qa.querySelector('.ans');
+      var open=qa.classList.toggle('open');
+      ans.style.maxHeight = open ? ans.scrollHeight + 'px' : 0;
+    });
+  });
+</script>
+</body>
+</html>
